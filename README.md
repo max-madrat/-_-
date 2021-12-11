@@ -1,4 +1,4 @@
-![workflow](https://github.com/max-madrat/tp3/.github/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/max-madrat/tp3/actions/workflows/main.yml/badge.svg)
 # Техническое задание по ТП №3
 ## Часть №1 Тестирование
 ### 1.Реализованы функции чтения из файла, поиска минимального числа, поиска максимального числа, сложения и умножения всех чисел из файла
