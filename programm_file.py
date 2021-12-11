@@ -5,7 +5,7 @@ with open("data.txt") as f:
             data.append(float(x))
 print(data)
 
-dsagfdafaesgasdf
+
 def min_number(list_of_data):
     try:
         low = list_of_data[0]
