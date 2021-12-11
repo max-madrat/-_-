@@ -8,6 +8,7 @@ print(data)
 
 def min_number(list_of_data):
     try:
+        hfghjgkl;klkhghfdshjk
         low = list_of_data[0]
         for i in range(len(list_of_data)):
             if low >= list_of_data[i]:
