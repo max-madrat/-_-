@@ -15,6 +15,5 @@ jobs:
       - name: Instolation of needed files
         run: pip install -r requirements.txt
       - name: run tests
-          script:
-            - pytest
+        run: pytest -m unittest discover .
         
