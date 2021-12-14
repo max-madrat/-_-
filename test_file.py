@@ -63,7 +63,7 @@ def test_total_sum():
     print()
     for s in list_of_int:
         start_time = datetime.now()
-        assert total_sum(s) == 0
+        assert total_sum(s) == sum(s)
         print(sys.getsizeof(s), 'bytes  ', datetime.now() - start_time)
 
 
