@@ -39,7 +39,7 @@ def test_min_number():
     print()
     for s in list_of_int:
         start_time = datetime.now()
-        assert min_number(list_of_int) == 6
+        assert min_number(list_of_int) == min(list_of_int)
         print(sys.getsizeof(s), 'bytes  ', datetime.now() - start_time)
 
 
@@ -63,7 +63,7 @@ def test_total_sum():
     print()
     for s in list_of_int:
         start_time = datetime.now()
-        assert total_sum(s) == sum(s)
+        assert total_sum(s) == 0
         print(sys.getsizeof(s), 'bytes  ', datetime.now() - start_time)
 
 
