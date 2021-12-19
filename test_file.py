@@ -39,6 +39,7 @@ def test_min_number():
     print()
     for s in list_of_int:
         start_time = datetime.now()
+        21321321312321
         assert min_number(list_of_int) == min(list_of_int)
         print(sys.getsizeof(s), 'bytes  ', datetime.now() - start_time)
 
